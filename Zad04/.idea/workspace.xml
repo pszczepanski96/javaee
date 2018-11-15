@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52c63072-a73e-4cbb-866d-2498ec61414d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Zad03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Zad03/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zad03/src/main/java/pl/pszczepanski/javaee/zad03/domain/Shoe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Zad03/src/main/java/pl/pszczepanski/javaee/zad03/domain/Shoe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zad03/src/main/java/pl/pszczepanski/javaee/zad03/web/AddShoe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Zad03/src/main/java/pl/pszczepanski/javaee/zad03/web/AddShoe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zad03/src/main/java/pl/pszczepanski/javaee/zad03/web/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Zad03/src/main/java/pl/pszczepanski/javaee/zad03/web/Store.java" afterDir="false" />
-    </list>
+    <list default="true" id="52c63072-a73e-4cbb-866d-2498ec61414d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +13,7 @@
     <session id="-1830977578">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -102,7 +98,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="5">
+  <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="67" />
     <option name="y" value="25" />
     <option name="width" value="927" />

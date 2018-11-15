@@ -9,7 +9,7 @@ public class Person {
 	private Date dataStart;
 	private Date dataStop;
 	
-	public Person() {
+	public Person(String firstName, String dataStart, String firstStop) {
 		super();
 	}
 	

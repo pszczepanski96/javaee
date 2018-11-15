@@ -1,7 +1,14 @@
 package com.example.servletjspdemo.web;
 
+import com.example.servletjspdemo.domain.Person;
+import com.example.servletjspdemo.service.StorageService;
+
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -21,6 +28,28 @@ public class DataServlet extends HttpServlet {
 		response.setContentType("text/html");
 		
 		PrintWriter out = response.getWriter();
+		DateFormat formatter = new SimpleDateFormat("yyyy-mm-dd");
+
+		StorageService ss = (StorageService) getServletContext().getAttribute("storage_service");
+
+		String firstName = request.getParameter("firstName");
+
+		Date dataStart = null;
+		try {
+			dataStart = formatter.parse(request.getParameter("dataStart"));
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		Date dataStop = null;
+		try {
+			dataStop = formatter.parse(request.getParameter("dataStop"));
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+
+		Person person = new Person(firstName, dataStart,dataStop);
+
+		ss.add(person);
 		
 		String selectedTopics = "";
 		for (String topic : request.getParameterValues("topic")) {

@@ -12,7 +12,7 @@
 <jsp:useBean id="storage" class="com.example.servletjspdemo.service.StorageService" scope="application" />
 <%
   for (Person person : storage.getAllPersons()) {
-	  out.println("<p>First name: " + person.getFirstName() + "; Year of birth: " + person.getYob() + "</p>");
+	  out.println("<p>First name: " + person.getFirstName() + "; <br /> Newseller receiving date start: " + person.getDataStart() + "</p>");
   }
 %>
 <p>

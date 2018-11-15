@@ -14,6 +14,7 @@
 <form action="addPerson.jsp">
 
   First name :<input type="text" name="firstName" value="${person.firstName}" /><br />
+
   Year of birth :<input type="text"  name="yob" value="${person.yob}" /><br />
   <input type="submit" value=" OK ">
   

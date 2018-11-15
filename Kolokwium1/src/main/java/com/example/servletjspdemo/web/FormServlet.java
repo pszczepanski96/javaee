@@ -22,10 +22,10 @@ public class FormServlet extends HttpServlet {
 		
 		PrintWriter out = response.getWriter();
 		out.println("<html><body><h2>Orrder newseller</h2>" +
-				"<form action='data'>" +
+				"<form action='newsellerdata'>" +
 				"First name: <input type='text' name='firstName' /> <br />" +
 				"Date start: <input type='text' name='dataStart' /> <br />" +
-				"Date stop: <input type='text' name='dataStart' /> <br />" +
+				"Date stop: <input type='text' name='dataStop' /> <br />" +
 				"How often? <br />"+
 				"<input type='radio' name='frequency' value='everyday'> Every day <br />"+
 				"<input type='radio' name='frequency' value='everyweek'> Once in a week <br />"+

@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(urlPatterns = "/data")
+@WebServlet(urlPatterns = "/newsellerdata")
 public class DataServlet extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
@@ -22,13 +22,15 @@ public class DataServlet extends HttpServlet {
 		
 		PrintWriter out = response.getWriter();
 		
-		String selectedHobby = "";
-		for (String hobby : request.getParameterValues("hobby")) {
-			selectedHobby += hobby + " ";
+		String selectedTopics = "";
+		for (String topic : request.getParameterValues("topic")) {
+			selectedTopics += topic + ", ";
 		}
 		out.println("<html><body><h2>Your data</h2>" +
 				"<p>First name: " + request.getParameter("firstName") + "<br />" +
-				"<p>Your hobby: " + selectedHobby + "<br />" +
+				"<p>Newseller receiving time: "  + request.getParameter("dataStart") + " - "+ request.getParameter("dataStop")+ "<br />" +
+				"<p>Frequency: " +request.getParameter("frequency")+ "<br />" +
+				"<p>Your Topics: " + selectedTopics + "<br />" +
 				"</body></html>");
 		out.close();
 	}

@@ -9,7 +9,7 @@ import java.util.List;
 import javax.ejb.Singleton;
 
 
-import com.example.restwsdemo.domain.Shoe;
+import pl.pszczepanski.javaee.zad05.domain.Shoe;
 
 @Singleton
 public class ShoeManager {

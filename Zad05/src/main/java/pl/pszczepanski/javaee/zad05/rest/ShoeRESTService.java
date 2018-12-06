@@ -14,8 +14,8 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 
-import com.example.restwsdemo.domain.Shoe;
-import com.example.restwsdemo.service.ShoeManager;
+import pl.pszczepanski.javaee.zad05.domain.Shoe;
+import pl.pszczepanski.javaee.zad05.service.ShoeManager;
 
 @Path("shoe")
 @Stateless

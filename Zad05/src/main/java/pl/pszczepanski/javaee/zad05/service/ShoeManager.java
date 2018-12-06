@@ -3,7 +3,6 @@ package pl.pszczepanski.javaee.zad05.service;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Date;
 import java.util.List;
 
 import javax.ejb.Singleton;

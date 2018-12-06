@@ -13,15 +13,13 @@ public class Shoe {
 	private int quantity;
 	private boolean waterproof;
 
+	public Shoe(){}
+
 	public Shoe(String producer, int quantity, double price, boolean waterproof) {
 		this.producer = producer;
 		this.quantity = quantity;
 		this.price = price;
 		this.waterproof = waterproof;
-
-	}
-
-	public Shoe(String producer, double quantity, double price, boolean waterproof) {
 
 	}
 

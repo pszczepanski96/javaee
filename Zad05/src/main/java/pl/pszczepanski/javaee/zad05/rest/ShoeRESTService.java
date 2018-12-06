@@ -27,8 +27,8 @@ public class ShoeRESTService {
 	@GET
 	@Path("/{shoeId}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Shoe getShoe(@PathParam("personId") Integer id) {
-		Shoe s = sm.getShoe(1);
+	public Shoe getShoe(@PathParam("shoeId") Integer id) {
+		Shoe s = sm.getShoe(id);
 		return s;
 	}
 
@@ -43,7 +43,7 @@ public class ShoeRESTService {
 	public Response addShoe(Shoe shoe) {
 		sm.addShoe(shoe);
 
-		return Response.status(201).entity("Shoe").build();
+		return Response.status(201).entity("Shoe added").build();
 	}
 
 	@GET
@@ -61,7 +61,7 @@ public class ShoeRESTService {
 	@DELETE
 	public Response clearPersons() {
 		sm.deleteAllShoes();
-		return Response.status(200).build();
+		return Response.status(200).entity("Shoes deleted").build();
 	}
 
 }

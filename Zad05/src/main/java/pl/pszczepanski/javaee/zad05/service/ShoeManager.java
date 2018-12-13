@@ -19,7 +19,7 @@ public class ShoeManager {
 		db.add(shoe);
 	}
 
-	public void deletePerson(Shoe shoe){
+	public void deleteShoe(Shoe shoe){
 		db.remove(shoe);
  	}
 	

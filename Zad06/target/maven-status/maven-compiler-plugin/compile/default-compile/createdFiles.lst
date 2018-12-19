@@ -1,0 +1,11 @@
+com/example/restejbjpa/domain/Car.class
+com/example/restejbjpa/config/ApplicationConfig.class
+com/example/restejbjpa/util/CarsResponse.class
+com/example/restejbjpa/service/PersonManager.class
+com/example/restejbjpa/util/PersonsResponse.class
+com/example/restejbjpa/domain/Person.class
+com/example/restejbjpa/service/BookManager.class
+com/example/restejbjpa/rest/BookRestService.class
+com/example/restejbjpa/util/BookResponse.class
+com/example/restejbjpa/rest/PersonRestService.class
+com/example/restejbjpa/domain/Book.class

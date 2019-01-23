@@ -1,14 +1,18 @@
 package pl.pszczepanski.javaee.zad03.domain;
 
-import java.sql.*;
+
+import java.util.Date;
 
 public class Shoe {
+	private int id;
 	private String producer;
 	private Date productionDate;
 	private double price;
 	private int quantity;
 	private boolean waterproof;
-	public Shoe(String producer, Date productionDate, int quantity, double price, boolean waterproof) {
+
+	public Shoe(int id, String producer, Date productionDate, int quantity, double price, boolean waterproof) {
+		this.id = id;
 		this.producer = producer;
 		this.productionDate = productionDate;
 		this.quantity = quantity;
@@ -17,7 +21,7 @@ public class Shoe {
 
 	}
 
-	public Shoe(String producer, java.util.Date productionDate, double quantity, double price, boolean waterproof) {
+	public Shoe() {
 
 	}
 
@@ -59,5 +63,13 @@ public class Shoe {
 
 	public void setWaterproof(boolean waterproof) {
 		this.waterproof = waterproof;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
 	}
 }

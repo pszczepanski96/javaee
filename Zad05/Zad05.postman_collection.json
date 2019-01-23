@@ -1,0 +1,127 @@
+{
+	"info": {
+		"_postman_id": "2dc24cf8-8108-4df2-91b9-d49e7ce78866",
+		"name": "Zad05",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ShoeTest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/shoe/test",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"shoe",
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetShoe",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/shoe/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"shoe",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddShoe",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"producer\": \"Adidas\",\n    \"price\": 200,\n    \"quantity\": 3,\n    \"waterproof\": false\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/shoe/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"shoe",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteAllShoes",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"producer\": \"Adidas\",\n    \"price\": 200,\n    \"quantity\": 3,\n    \"waterproof\": false\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/restejbjpademo/api/shoe/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restejbjpademo",
+						"api",
+						"shoe",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

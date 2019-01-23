@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(urlPatterns = "/indeks")
+@WebServlet(urlPatterns = "/")
 
 public class Index extends HttpServlet {
     private static final long serialVersionUID = 1L;
@@ -26,6 +26,7 @@ public class Index extends HttpServlet {
         out.println("<html><body><ul>"+
                 "<li><a href='add'>Add Shoe</a></li>"+
                 "<li><a href='buy'>Buy Shoe</a></li>"+
+                "<li><a href='basket'>Check your basket</a></li>"+
                 "<li><a href='store'>Check store</a></li>"+
                 "</ul></body></html>");
 

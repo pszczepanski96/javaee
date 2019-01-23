@@ -46,6 +46,7 @@ public class Store extends HttpServlet {
 		out.append("<html><body><h2>All Shoes:</h2>");
 
 		for (Shoe shoe: allShoes) {
+			out.append("<p>ID: " +shoe.getId() + "</p>");
 			out.append("<p>Producer: " + shoe.getProducer() + "</p>");
 			out.append("<p>Production date: " + shoe.getProductionDate() + "</p>");
 			out.append("<p>Quantity: " + shoe.getQuantity() + "</p>");
@@ -53,8 +54,7 @@ public class Store extends HttpServlet {
 			out.append("<p>Waterproof: " + shoe.getWaterproof() + "</p><br>");
 		}
 
-		out.append("<a href='add'>Add another shoe</a><br>");
-		out.append("<a href='shop'>Go to main site</a>");
+		out.append("<a href='zad03'>Go to main site</a>");
 		out.append("</body></html>");
 		out.close();
 	}

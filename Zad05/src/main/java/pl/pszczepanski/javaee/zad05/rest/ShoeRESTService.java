@@ -46,22 +46,19 @@ public class ShoeRESTService {
 		return Response.status(201).entity("Shoe added").build();
 	}
 
+	@DELETE
+	@Produces(MediaType.APPLICATION_JSON)
+	public Response deleteShoes(){
+		sm.deleteAllShoe();
+		return Response.status(200).entity("Shoes deleted").build();
+	}
+
 	@GET
 	@Path("/test")
 	@Produces(MediaType.TEXT_PLAIN)
 	public String test() {
-		return "REST API /shoe is running today!";
+		return "REST API /shoe is running...";
 	}
 
-	@GET
-	@Path("/hello")
-	@Produces(MediaType.TEXT_PLAIN)
-	public String hello() {return "Hello world Today!";}
-
-	@DELETE
-	public Response clearPersons() {
-		sm.deleteAllShoes();
-		return Response.status(200).entity("Shoes deleted").build();
-	}
 
 }

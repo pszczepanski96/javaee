@@ -30,20 +30,23 @@ public class Buy extends HttpServlet {
 
         List<Shoe> allShoes = ss.getAllShoes();
 
-        out.append("<html><body><h2>All Shoes:</h2>");
-
+        out.append("<html><body><h2>Select Shoes:</h2>");
         for (Shoe shoe: allShoes) {
-                out.append("<form action='basket>");
+                if(shoe.getQuantity()>0){
+                out.append("<form action='basket-add'>");
+                out.append("<input type='hidden' name='id' value='" + shoe.getId() + "'/>");
+                out.append("<p>ID: " +shoe.getId() + "</p>");
                 out.append("<p>Producer: " + shoe.getProducer() + "</p>");
-                out.append("<p>Production date: " + shoe.getProductionDate() + "</p>");
+                out.append("<p>Production date: " + shoe.getProductionDate()+ "</p>");
                 out.append("<p>Price: " + shoe.getPrice() + "</p>");
                 out.append("<p>Quantity: " + shoe.getQuantity() + "</p>");
                 out.append("<p>Waterproof: " + shoe.getWaterproof() + "</p><br>");
-                out.append("<input type='submit' value=' Add to Cart' />");
-                out.append("</form>");
-
+                out.append("<input type='submit' value='Add to Cart' />");
+                out.append("</form>");}
         }
 
+
+        out.append("<a href='zad03'>Go to main site</a>");
         out.append("</body></html>");
         out.close();
 
@@ -53,3 +56,4 @@ public class Buy extends HttpServlet {
 
 
 }
+

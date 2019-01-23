@@ -50,7 +50,9 @@ public class AddingProces extends HttpServlet {
         int quantity = Integer.parseInt(request.getParameter("quantity"));
         boolean waterproof = Boolean.parseBoolean(request.getParameter("waterproof"));
 
-        Shoe newShoe = new Shoe(producer, productionDate, price, quantity,waterproof);
+        int id = ss.getId();
+
+        Shoe newShoe = new Shoe(id, producer, productionDate,quantity, price,  waterproof);
 
         ss.add(newShoe);
 
@@ -59,17 +61,18 @@ public class AddingProces extends HttpServlet {
         out.append("<html><body><h2>All Shoes:</h2>");
 
         for (Shoe shoe: allShoes) {
+            out.append("<p>ID: " +shoe.getId() + "</p>");
             out.append("<p>Producer: " + shoe.getProducer() + "</p>");
             out.append("<p>Date od production: " + shoe.getProductionDate() + "</p>");
             out.append("<p>Price: " + shoe.getPrice() + "</p>");
             out.append("<p>Quantity: " + shoe.getQuantity() + "</p>");
             out.append("<p>Waterproof: " + shoe.getWaterproof() + "</p><br>");
-
+         }
             out.append("<a href='add'>Add another shoe</a><br>");
             out.append("<a href='store'>Show all shoes</a>");
             out.append("</body></html>");
             out.close();
-        }
+
 
     }
     @Override

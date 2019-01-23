@@ -48,13 +48,15 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<html>\n");
       out.write("    <head>\n");
       out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
-      out.write("        <title>Demo application</title>\n");
+      out.write("        <title>Shop</title>\n");
       out.write("    </head>\n");
       out.write("    <body>\n");
-      out.write("        <h2>Simple demo application with Java EE 6 Servlet (3.0) and JSP</h2>\n");
-      out.write("        <p><a href=\"hello\">See greetings from servlet</a></p>\n");
-      out.write("        <p><a href=\"form\">Fill a form</a></p>\n");
-      out.write("        <p><a href=\"getPersonData.jsp\">Fill a Person form</a></p>\n");
+      out.write("        <h2>Welcome in my shop</h2>\n");
+      out.write("        What do you want to do?<br>\n");
+      out.write("        <li><a href='addShoe.jsp'>Add Shoe</a></li>\n");
+      out.write("        <li><a href='buy'>Buy Shoe</a></li>\n");
+      out.write("        <li><a href='basket'>Check your basket</a></li>\n");
+      out.write("        <li><a href='store'>Check store</a></li>\n");
       out.write("    </body>\n");
       out.write("</html>\n");
     } catch (Throwable t) {

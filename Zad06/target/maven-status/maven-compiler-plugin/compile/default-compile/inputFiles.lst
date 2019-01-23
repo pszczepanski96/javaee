@@ -1,11 +1,5 @@
-/home/pszczepanski/Pulpit/javaee/restejbjpa/src/main/java/com/example/restejbjpa/service/PersonManager.java
-/home/pszczepanski/Pulpit/javaee/restejbjpa/src/main/java/com/example/restejbjpa/config/ApplicationConfig.java
-/home/pszczepanski/Pulpit/javaee/restejbjpa/src/main/java/com/example/restejbjpa/util/CarsResponse.java
-/home/pszczepanski/Pulpit/javaee/restejbjpa/src/main/java/com/example/restejbjpa/domain/Book.java
-/home/pszczepanski/Pulpit/javaee/restejbjpa/src/main/java/com/example/restejbjpa/domain/Car.java
-/home/pszczepanski/Pulpit/javaee/restejbjpa/src/main/java/com/example/restejbjpa/rest/BookRestService.java
-/home/pszczepanski/Pulpit/javaee/restejbjpa/src/main/java/com/example/restejbjpa/util/BookResponse.java
-/home/pszczepanski/Pulpit/javaee/restejbjpa/src/main/java/com/example/restejbjpa/rest/PersonRestService.java
-/home/pszczepanski/Pulpit/javaee/restejbjpa/src/main/java/com/example/restejbjpa/domain/Person.java
-/home/pszczepanski/Pulpit/javaee/restejbjpa/src/main/java/com/example/restejbjpa/service/BookManager.java
-/home/pszczepanski/Pulpit/javaee/restejbjpa/src/main/java/com/example/restejbjpa/util/PersonsResponse.java
+/home/pszczepanski/Pulpit/javaee/Zad06/src/main/java/pl/pszczepanski/javaee/zad06/service/ShoeManager.java
+/home/pszczepanski/Pulpit/javaee/Zad06/src/main/java/pl/pszczepanski/javaee/zad06/domain/Producer.java
+/home/pszczepanski/Pulpit/javaee/Zad06/src/main/java/pl/pszczepanski/javaee/zad06/domain/Shoe.java
+/home/pszczepanski/Pulpit/javaee/Zad06/src/main/java/pl/pszczepanski/javaee/zad06/rest/ShoeRestService.java
+/home/pszczepanski/Pulpit/javaee/Zad06/src/main/java/pl/pszczepanski/javaee/zad06/config/ApplicationConfig.java

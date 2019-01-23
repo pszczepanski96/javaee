@@ -1,0 +1,751 @@
+{
+	"info": {
+		"_postman_id": "d8c1c860-3fbf-4bb2-9edc-99e325463ef9",
+		"name": "Projekt JavaEE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "OwnerTest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/projekt/api/owner/test",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"projekt",
+						"api",
+						"owner",
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AllOwners",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/projekt/api/owner/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"projekt",
+						"api",
+						"owner",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetOwner",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/projekt/api/owner/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"projekt",
+						"api",
+						"owner",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddOwner",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Patryk\",\n\t\"yob\": 1996\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/projekt/api/owner",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"projekt",
+						"api",
+						"owner"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateOwner",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Zenek\",\n\t\"yob\": 1996\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/projekt/api/owner/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"projekt",
+						"api",
+						"owner",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteOwner",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/projekt/api/owner/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"projekt",
+						"api",
+						"owner",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ShoesTest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/projekt/api/shoes/test",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"projekt",
+						"api",
+						"shoes",
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AllShoes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/projekt/api/shoes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"projekt",
+						"api",
+						"shoes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetShoes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/projekt/api/shoes/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"projekt",
+						"api",
+						"shoes",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddShoes",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Flux\",\n\t\"size\": 39\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/projekt/api/shoes/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"projekt",
+						"api",
+						"shoes",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddShoesWithRelations",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Flux\",\n    \"size\": 39,\n    \"company\": {\n    \t\"name\": \"Adidas\",\n    \t\"country\": \"Germany\"\n    },\n    \"serialNumber\": {\n    \t\"serialNr\": \"az123123\"\n    },\n    \"wearers\": [\n    \t{\n    \t\t\"name\": \"Patryk\",\n\t\t\t\"yob\": 1996\n    \t},\n    \t{\n    \t\t\"name\": \"Zenek\",\n\t\t\t\"yob\": 1996\n    \t}\n    ]\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/projekt/api/shoes/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"projekt",
+						"api",
+						"shoes",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateShoes",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Classic\",\n    \"size\": 45\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/projekt/api/shoes/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"projekt",
+						"api",
+						"shoes",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteShoes",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/projekt/api/shoes/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"projekt",
+						"api",
+						"shoes",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ProducerTest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AllProducer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/projekt/api/producer/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"projekt",
+						"api",
+						"producer",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetProducer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/projekt/api/producer/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"projekt",
+						"api",
+						"producer",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddProducer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"Nike\",\n\t\"country\":\"USA\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/projekt/api/producer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"projekt",
+						"api",
+						"producer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateProducer",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"Cropp\",\n\t\"country\":\"Poland\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/projekt/api/producer/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"projekt",
+						"api",
+						"producer",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteProducer",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"Cropp\",\n\t\"country\":\"Poland\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/projekt/api/producer/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"projekt",
+						"api",
+						"producer",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SerialTest",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"Cropp\",\n\t\"country\":\"Poland\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/projekt/api/serial/test",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"projekt",
+						"api",
+						"serial",
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AllSerial",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"Cropp\",\n\t\"country\":\"Poland\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/projekt/api/serial",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"projekt",
+						"api",
+						"serial"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetSerial",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\":\"Cropp\",\n\t\"country\":\"Poland\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/projekt/api/serial/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"projekt",
+						"api",
+						"serial",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddSerial",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"serialNr\":\"02323JHCY10E\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/projekt/api/serial/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"projekt",
+						"api",
+						"serial",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateSerial",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"serialNr\":\"1234678\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/projekt/api/serial/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"projekt",
+						"api",
+						"serial",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteSerial",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"serialNr\":\"1234678\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/projekt/api/serial/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"projekt",
+						"api",
+						"serial",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

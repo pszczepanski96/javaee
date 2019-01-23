@@ -1,7 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52c63072-a73e-4cbb-866d-2498ec61414d" name="Default Changelist" comment="" />
+    <list default="true" id="44c9a7f2-0045-41fe-a2d4-b827badfce72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/Index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kolokwium2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kolokwium2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad03/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Zad03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad03/src/main/java/pl/pszczepanski/javaee/zad03/domain/Shoe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Zad03/src/main/java/pl/pszczepanski/javaee/zad03/domain/Shoe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad03/src/main/java/pl/pszczepanski/javaee/zad03/service/StorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Zad03/src/main/java/pl/pszczepanski/javaee/zad03/service/StorageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad03/src/main/java/pl/pszczepanski/javaee/zad03/web/AddShoe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Zad03/src/main/java/pl/pszczepanski/javaee/zad03/web/AddShoe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad03/src/main/java/pl/pszczepanski/javaee/zad03/web/AddingProces.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Zad03/src/main/java/pl/pszczepanski/javaee/zad03/web/AddingProces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad03/src/main/java/pl/pszczepanski/javaee/zad03/web/Buy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Zad03/src/main/java/pl/pszczepanski/javaee/zad03/web/Buy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad03/src/main/java/pl/pszczepanski/javaee/zad03/web/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Zad03/src/main/java/pl/pszczepanski/javaee/zad03/web/Index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad03/src/main/java/pl/pszczepanski/javaee/zad03/web/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Zad03/src/main/java/pl/pszczepanski/javaee/zad03/web/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad03/src/main/webapp/addPerson.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad03/src/main/webapp/getPersonData.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad03/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad03/src/main/webapp/showAllPersons.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad03/domain/Shoe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/domain/Shoe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad03/service/StorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/service/StorageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad03/web/AddShoe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad03/web/AddingProces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/AddingProces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad03/web/Buy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/Buy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad03/web/Index.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad03/web/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/AddShoe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad03/web/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/addPerson.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addShoe.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/getPersonData.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/showAllPersons.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/servletjspdemo/domain/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/servletjspdemo/service/StorageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/servletjspdemo/web/DataServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/servletjspdemo/web/FormServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/servletjspdemo/web/GreetingServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/pszczepanski/javaee/zad03/domain/Shoe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/pszczepanski/javaee/zad03/service/StorageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/pszczepanski/javaee/zad03/web/AddShoe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/pszczepanski/javaee/zad03/web/AddingProces.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/pszczepanski/javaee/zad03/web/Buy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/pszczepanski/javaee/zad03/web/Index.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/pszczepanski/javaee/zad03/web/Shop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/pszczepanski/javaee/zad03/web/Store.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad06/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Zad06/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad06/target/classes/com/example/restejbjpa/config/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad06/target/classes/com/example/restejbjpa/domain/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad06/target/classes/com/example/restejbjpa/domain/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad06/target/classes/com/example/restejbjpa/domain/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad06/target/classes/com/example/restejbjpa/rest/BookRestService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad06/target/classes/com/example/restejbjpa/rest/PersonRestService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad06/target/classes/com/example/restejbjpa/service/BookManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad06/target/classes/com/example/restejbjpa/service/PersonManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad06/target/classes/com/example/restejbjpa/util/BookResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad06/target/classes/com/example/restejbjpa/util/CarsResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad06/target/classes/com/example/restejbjpa/util/PersonsResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad06/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Zad06/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad06/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Zad06/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad06/target/restejbjpademo.war" beforeDir="false" afterPath="$PROJECT_DIR$/../Zad06/target/restejbjpademo.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Zad07/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,26 +78,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
-          <entry key="jsp" value="2" />
+          <entry key="java" value="26" />
+          <entry key="jsp" value="7" />
+          <entry key="md" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
-          <entry key="JSP" value="2" />
+          <entry key="JAVA" value="26" />
+          <entry key="JSP" value="7" />
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3" />
-          <entry key="jsp" value="13" />
+          <entry key="java" value="138" />
+          <entry key="jsp" value="558" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3" />
-          <entry key="JSP" value="13" />
+          <entry key="JAVA" value="138" />
+          <entry key="JSP" value="558" />
         </counts>
       </usages-collector>
     </session>
@@ -47,38 +107,127 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad03/domain/Shoe.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/AddToBasket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="43" />
+            <state relative-caret-position="268">
+              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad03/service/StorageService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/Basket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="258">
+              <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/Buy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/Confirm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/Index.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/Rodo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/Store.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/AddShoe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/AddingProces.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="988">
+              <caret line="84" column="1" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/addPerson.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/rodo.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/showAllPersons.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -86,8 +235,31 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad03/service/StorageService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad03/domain/Shoe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad03/web/AddingProces.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad03/web/Store.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/addPerson.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/addShoe.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/showAllPersons.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/showAllShoes.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad03/service/StorageService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad03/web/AddShoe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad03/web/AddToBasket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad03/web/Basket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad03/web/Buy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad03/web/Confirm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad03/web/Index.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad03/web/Rodo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/AddToBasket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/Index.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/AddShoe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/Basket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/Buy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/Confirm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/Store.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/Rodo.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/rodo.jsp" />
       </list>
     </option>
   </component>
@@ -98,13 +270,15 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="67" />
-    <option name="y" value="25" />
-    <option name="width" value="927" />
-    <option name="height" value="1055" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="535" />
+    <option name="y" value="53" />
+    <option name="width" value="1254" />
+    <option name="height" value="819" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -166,6 +340,51 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Zad04" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zad04" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zad04" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zad04" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zad04" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zad04" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="pl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zad04" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zad04" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="pl" type="462c0819:PsiDirectoryNode" />
+              <item name="pszczepanski" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zad04" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zad04" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="pl" type="462c0819:PsiDirectoryNode" />
+              <item name="pszczepanski" type="462c0819:PsiDirectoryNode" />
+              <item name="javaee" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zad04" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zad04" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="pl" type="462c0819:PsiDirectoryNode" />
+              <item name="pszczepanski" type="462c0819:PsiDirectoryNode" />
+              <item name="javaee" type="462c0819:PsiDirectoryNode" />
+              <item name="zad04" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -173,6 +392,9 @@
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548256178619" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -191,70 +413,221 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="52c63072-a73e-4cbb-866d-2498ec61414d" name="Default Changelist" comment="" />
-      <created>1542263434664</created>
+      <changelist id="44c9a7f2-0045-41fe-a2d4-b827badfce72" name="Default Changelist" comment="" />
+      <created>1548242799740</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1542263434664</updated>
+      <updated>1548242799740</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="927" height="1055" extended-state="4" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27582294" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24958494" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Run" order="5" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad03/service/StorageService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad03/web/Shop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="75">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad03/domain/Shoe.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/domain/Shoe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="43" />
+        <state relative-caret-position="193">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+            <element signature="e#1210#1211#0" expanded="true" />
+            <element signature="e#1233#1234#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#1298#1299#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/showAllPersons.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/showAllShoes.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/getPersonData.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/addPerson.jsp">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/service/StorageService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="285">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#239#245#0" expanded="true" />
+            <element signature="e#291#297#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/addShoe.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/AddingProces.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="84" column="1" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/AddShoe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/AddToBasket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/Basket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/Buy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/Confirm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/Store.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/pszczepanski/javaee/zad04/web/Rodo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/rodo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>

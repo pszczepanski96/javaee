@@ -5,12 +5,14 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Demo application</title>
+        <title>Shop</title>
     </head>
     <body>
-        <h2>Simple demo application with Java EE 6 Servlet (3.0) and JSP</h2>
-        <p><a href="hello">See greetings from servlet</a></p>
-        <p><a href="form">Fill a form</a></p>
-        <p><a href="getPersonData.jsp">Fill a Person form</a></p>
+        <h2>Welcome in my shop</h2>
+        What do you want to do?<br>
+        <li><a href='addShoe.jsp'>Add Shoe</a></li>
+        <li><a href='buy'>Buy Shoe</a></li>
+        <li><a href='basket'>Check your basket</a></li>
+        <li><a href='store'>Check store</a></li>
     </body>
 </html>

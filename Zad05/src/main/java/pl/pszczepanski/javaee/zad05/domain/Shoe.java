@@ -1,8 +1,7 @@
 package pl.pszczepanski.javaee.zad05.domain;
 
-
 import javax.xml.bind.annotation.XmlRootElement;
-import java.util.Date;
+
 
 @XmlRootElement
 public class Shoe {

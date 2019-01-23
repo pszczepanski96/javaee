@@ -24,15 +24,16 @@ public class AddShoe extends HttpServlet {
 		out.println("<html><body><h2>Add shoe</h2>" +
 				"<form action='addingProces'>" +
 				"Producer: <input type='text' name='producer' /> <br />" +
-				"Date of production: <input type='text' name='productionDate' /> <br />" +
+				"Date of production (yyyy-mm-dd): <input type='text' name='productionDate' /> <br />" +
 				"Price: <input type='text' name='price' /> <br />" +
 				"Quantity: <input type='number' name='quantity' /> <br />" +
 				"Waterproof: <select name='waterproof'>" +
 				"<option value='true'>Yes</option>" +
 				"<option value='false'>No</option>" +
 				"</select></br>"+
-				"<input type='submit' value=' ADDING' />" +
+				"<input type='submit' value=' ADD' />" +
 				"</form>" +
+				"<br><a href='zad03'>Back</a>"+
 				"</body></html>");
 		out.close();
 	}

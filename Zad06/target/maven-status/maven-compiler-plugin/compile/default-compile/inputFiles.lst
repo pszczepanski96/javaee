@@ -1,5 +1,7 @@
 /home/pszczepanski/Pulpit/javaee/Zad06/src/main/java/pl/pszczepanski/javaee/zad06/service/ShoeManager.java
+/home/pszczepanski/Pulpit/javaee/Zad06/src/main/java/pl/pszczepanski/javaee/zad06/service/ProducerManager.java
 /home/pszczepanski/Pulpit/javaee/Zad06/src/main/java/pl/pszczepanski/javaee/zad06/domain/Producer.java
 /home/pszczepanski/Pulpit/javaee/Zad06/src/main/java/pl/pszczepanski/javaee/zad06/domain/Shoe.java
 /home/pszczepanski/Pulpit/javaee/Zad06/src/main/java/pl/pszczepanski/javaee/zad06/rest/ShoeRestService.java
+/home/pszczepanski/Pulpit/javaee/Zad06/src/main/java/pl/pszczepanski/javaee/zad06/rest/ProducerRestService.java
 /home/pszczepanski/Pulpit/javaee/Zad06/src/main/java/pl/pszczepanski/javaee/zad06/config/ApplicationConfig.java

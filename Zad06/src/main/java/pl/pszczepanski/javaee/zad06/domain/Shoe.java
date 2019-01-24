@@ -2,6 +2,8 @@ package pl.pszczepanski.javaee.zad06.domain;
 
 import javax.persistence.*;
 import javax.xml.bind.annotation.XmlRootElement;
+import java.util.ArrayList;
+import java.util.List;
 
 @XmlRootElement
 
@@ -9,7 +11,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @NamedQueries({
         @NamedQuery(name = "shoe.getAll", query = "Select s from Shoe s"),
         @NamedQuery(name="shoe.deleteAll", query="Delete from Shoe"),
-        @NamedQuery(name = "shoe.findById", query = "Select s from Shoe s where s.id = :id"),
+
 })
 
 public class Shoe {
@@ -21,9 +23,10 @@ public class Shoe {
     private Producer producer;
 
 
-    public Shoe(){}
+    public Shoe() {
+    }
 
-    public Shoe(String name, String producer, int quantity, double price) {
+    public Shoe(String name, int quantity, double price) {
         this.name = name;
         this.quantity = quantity;
         this.price = price;
@@ -40,6 +43,13 @@ public class Shoe {
         this.id = id;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public double getPrice() {
         return price;
@@ -58,11 +68,12 @@ public class Shoe {
     }
 
     @ManyToOne(cascade = CascadeType.ALL)
-    public Producer getProducer() {
-        return producer;
+    public Producer getProducer(Producer producer) {
+        return this.producer;
     }
 
     public void setProducer(Producer producer) {
         this.producer = producer;
     }
+
 }

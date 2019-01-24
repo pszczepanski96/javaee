@@ -9,9 +9,11 @@ import javax.persistence.Id;
 public class Producer {
     private int id;
     private String name;
+    private String country;
 
-    public Producer(String name) {
+    public Producer(String name, String country) {
         this.name = name;
+        this.country = country;
     }
 
     @Id
@@ -30,5 +32,13 @@ public class Producer {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
     }
 }

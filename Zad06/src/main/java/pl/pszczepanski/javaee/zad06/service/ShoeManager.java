@@ -17,16 +17,16 @@ public class ShoeManager {
         sm.persist(shoe);
     }
      public Shoe getShoeById(long id){
-        Shoe result = getShoeById(id);
-         return result;
+        return sm.find(Shoe.class, id);
      }
      public void deleteAllShoes(){
         sm.createNamedQuery("shoe.deleteAll").executeUpdate();
      }
+     public Shoe updateShoe(Shoe transientShoe){
+        return  sm.merge(transientShoe);
+     }
 
-
-
-    @SuppressWarnings("unchecked")
+     @SuppressWarnings("unchecked")
     public List<Shoe> getAllShoes(){
         return sm.createNamedQuery("shoe.getAll").getResultList();
     }

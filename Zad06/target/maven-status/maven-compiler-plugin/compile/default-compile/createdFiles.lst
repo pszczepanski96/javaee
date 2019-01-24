@@ -1,4 +1,6 @@
+pl/pszczepanski/javaee/zad06/rest/ProducerRestService.class
 pl/pszczepanski/javaee/zad06/service/ShoeManager.class
+pl/pszczepanski/javaee/zad06/service/ProducerManager.class
 pl/pszczepanski/javaee/zad06/rest/ShoeRestService.class
 pl/pszczepanski/javaee/zad06/domain/Producer.class
 pl/pszczepanski/javaee/zad06/domain/Shoe.class

@@ -13,6 +13,7 @@ import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.util.ArrayList;
 import java.util.List;
 
 @Path("shoe")
@@ -26,7 +27,9 @@ public class ShoeRestService {
     @Path("/")
     @Consumes(MediaType.APPLICATION_JSON)
     public Response addShoe(Shoe shoe) {
-        Producer producer= new Producer("Adidas");
+
+        Producer producer = new Producer("Adidas", "Germany");
+
         shoe.setProducer(producer);
 
         sm.addShoe(shoe);
@@ -34,12 +37,37 @@ public class ShoeRestService {
         return Response.status(Response.Status.CREATED).build();
     }
 
-
     @GET
+    @Path("/{shoeId}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Shoe getShoe(@PathParam("shoeId") int id){
+        return sm.getShoeById(id);
+    }
+
+
+    @PUT
     @Path("/{shoeID}")
     @Produces(MediaType.APPLICATION_JSON)
-    public Shoe getShoe(@PathParam("shoeID") Long id){
-        return sm.getShoeById(id);
+    public Response getShoe(@PathParam("shoeID") Long id, Shoe transientShoe){
+
+        Shoe shoe = sm.getShoeById(id);
+
+        shoe.setName(transientShoe.getName());
+        shoe.setPrice(transientShoe.getPrice());
+        shoe.setQuantity(transientShoe.getQuantity());
+
+
+        sm.updateShoe(shoe);
+
+        return Response.status(Response.Status.CREATED).build();
+    }
+
+
+    @GET
+    @Path("/test")
+    @Produces(MediaType.TEXT_PLAIN)
+    public String test(){
+        return "Shoe REST Service is running...";
     }
 
     @GET
@@ -53,7 +81,7 @@ public class ShoeRestService {
     @Path("/deleteAll")
     public Response deleteAll(){
         sm.deleteAllShoes();
-        return Response.status(200).build();
+        return Response.status(200).entity("Shoes deleted").build();
     }
 
 
